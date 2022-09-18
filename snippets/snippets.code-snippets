@@ -1,0 +1,33 @@
+{
+  "getElementById": {
+    "prefix": "gid",
+    "body": [
+      "const ${1:Name} = document.getElementById('${2:Id}');${0}",
+    ],
+    "description": ""
+  },
+
+  "getElementsByClassName": {
+    "prefix": "gcn",
+    "body": [
+      "const ${1:Name} = document.getElementsByClassName('${2:Id}');${0}",
+    ],
+    "description": ""
+  },
+
+  "getElementByName": {
+    "prefix": "gn",
+    "body": [
+      "const ${1:Name} = document.getElementByName('${2:Id}');${0}",
+    ],
+    "description": ""
+  },
+  "getElementsByTagName": {
+    "prefix": "gtn",
+    "body": [
+      "const ${1:Name} = document.getElementsByTagName('${2:Id}');${0}",
+    ],
+    "description": ""
+  },
+  
+}

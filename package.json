@@ -1,0 +1,26 @@
+{
+  "name": "domsnippet",
+  "displayName": "domsnippet",
+  "description": "JavaScriptのDOM APIのスニペット拡張機能です。",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "publisher": "doremire",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NICu0/domsnippet"
+	},
+  "icon": "images/JavaScript_icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
