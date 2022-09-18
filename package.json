@@ -2,9 +2,9 @@
   "name": "domsnippet",
   "displayName": "domsnippet",
   "description": "JavaScriptのDOM APIのスニペット拡張機能です。",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.71.0"
+    "vscode": "^1.70.2"
   },
   "publisher": "doremire",
 	"repository": {
